@@ -1,4 +1,4 @@
-package sprint_1.tasca_2.nivel_2;
+package sprint_1.tasca_2.nivel_2.classes;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Entrada {
 
     private static Scanner sc = new Scanner (System.in);
-
 
     public static byte formatoByte(String mensaje) {
         while (true) {
@@ -123,5 +122,4 @@ public class Entrada {
     public static void closeScanner() {
         sc.close();
     }
-
 }
