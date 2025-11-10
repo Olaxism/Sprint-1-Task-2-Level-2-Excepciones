@@ -1,4 +1,6 @@
-package sprint_1.tasca_2.nivel_1;
+package sprint_1.tasca_2.nivel_1.classes;
+
+import sprint_1.tasca_2.nivel_1.excepciones.VentaVacia;
 
 import java.util.ArrayList;
 import java.util.List;
