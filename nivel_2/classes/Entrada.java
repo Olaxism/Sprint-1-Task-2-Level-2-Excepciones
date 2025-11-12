@@ -8,7 +8,7 @@ public class Entrada {
     private static Scanner sc = new Scanner (System.in);
 
 
-    public static byte formatoByte(String mensaje) {
+    public static byte formatByte(String mensaje) {
         while (true) {
             try {
                 System.out.println(mensaje);
@@ -21,7 +21,7 @@ public class Entrada {
         }
     }
 
-    public static int formatoEntero(String mensaje) {
+    public static int formatEntero(String mensaje) {
         while (true) {
             try {
                 System.out.println(mensaje);
@@ -34,7 +34,7 @@ public class Entrada {
         }
     }
 
-    public static float formatoFloat (String mensaje) {
+    public static float formatFloat (String mensaje) {
         while (true) {
             try {
                 System.out.println(mensaje);
@@ -47,7 +47,7 @@ public class Entrada {
         }
     }
 
-    public static double formatoDouble(String mensaje) {
+    public static double formatDouble(String mensaje) {
         while (true) {
             try {
                 System.out.println(mensaje);
@@ -60,7 +60,7 @@ public class Entrada {
         }
     }
 
-    public static char formatoChar(String mensaje) {
+    public static char formatChar(String mensaje) {
         while (true) {
             try {
                 System.out.print(mensaje);
@@ -80,7 +80,7 @@ public class Entrada {
         }
     }
 
-    public static String formatoString(String mensaje) {
+    public static String formatString(String mensaje) {
         while (true) {
             try {
                 System.out.print(mensaje);
@@ -100,7 +100,7 @@ public class Entrada {
 
     }
 
-    public static boolean formatoSoN(String mensaje) {
+    public static boolean formatSoN(String mensaje) {
             while (true) {
                 try {
                     System.out.print(mensaje + "(s/n): ");
